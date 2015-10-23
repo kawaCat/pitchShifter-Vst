@@ -9,6 +9,10 @@ SoundTouch Audio Processing Library : ( http://www.surina.net/soundtouch/ )
 
 screen shot in juce plugin demo app.
 
+## download
+windows only :
+[pitchShifter_V1.0_win.zip](/releases/download/v1.0/pitchShifter_V1.0_win.zip)
+
 ## note
 
 * one Parameter and one Program.
