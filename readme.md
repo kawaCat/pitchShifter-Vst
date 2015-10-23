@@ -11,7 +11,7 @@ screen shot in juce plugin demo app.
 
 ## download
 windows only :
-[pitchShifter_V1.0_win.zip](/releases/download/v1.0/pitchShifter_V1.0_win.zip)
+[pitchShifter_V1.0_win.zip](https://github.com/kawaCat/pitchShifter-Vst/releases/download/v1.0/pitchShifter_V1.0_win.zip)
 
 ## note
 
