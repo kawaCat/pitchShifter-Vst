@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ResourceCompile Include="resouce.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{53c8ea2d-fb69-4d13-a78d-b4315d497562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="depend">
+      <UniqueIdentifier>{d275f978-a1a7-442e-8f2d-e5cfb6822b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="depend\zlib">
+      <UniqueIdentifier>{55098a92-014e-489f-a746-1b5e46a7caea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="depend\libpng">
+      <UniqueIdentifier>{10929ed1-28ad-407b-a426-2bdfd8de40e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="depend\vstsdk">
+      <UniqueIdentifier>{1a2d0bd5-fb3b-4dcb-8f8f-2a87bb2bbd74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="depend\vstgui">
+      <UniqueIdentifier>{86365620-16db-419f-8ce9-31c238f39a13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="deps\zlib\deflate.c">
+      <Filter>depend\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\gzio.c">
+      <Filter>depend\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\infback.c">
+      <Filter>depend\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\inffast.c">
+      <Filter>depend\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\inflate.c">
+      <Filter>depend\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\inftrees.c">
+      <Filter>depend\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\trees.c">
+      <Filter>depend\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\uncompr.c">
+      <Filter>depend\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\zutil.c">
+      <Filter>depend\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\adler32.c">
+      <Filter>depend\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\compress.c">
+      <Filter>depend\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\zlib\crc32.c">
+      <Filter>depend\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\png\pngread.c">
+      <Filter>depend\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\png\pngrio.c">
+      <Filter>depend\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\png\pngrtran.c">
+      <Filter>depend\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\png\pngrutil.c">
+      <Filter>depend\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\png\pngset.c">
+      <Filter>depend\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\png\pngtrans.c">
+      <Filter>depend\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\png\pngvcrd.c">
+      <Filter>depend\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\png\pngwio.c">
+      <Filter>depend\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\png\pngwrite.c">
+      <Filter>depend\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\png\pngwtran.c">
+      <Filter>depend\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\png\pngwutil.c">
+      <Filter>depend\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\png\png.c">
+      <Filter>depend\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\png\pngerror.c">
+      <Filter>depend\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\png\pnggccrd.c">
+      <Filter>depend\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\png\pngget.c">
+      <Filter>depend\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\png\pngmem.c">
+      <Filter>depend\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\png\pngpread.c">
+      <Filter>depend\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\vstgui\vstgui.cpp">
+      <Filter>depend\vstgui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\vstgui\aeffguieditor.cpp">
+      <Filter>depend\vstgui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\vstgui\vstcontrols.cpp">
+      <Filter>depend\vstgui</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\vstsdk2.4\public.sdk\source\vst2.x\audioeffect.cpp">
+      <Filter>depend\vstsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\vstsdk2.4\public.sdk\source\vst2.x\audioeffectx.cpp">
+      <Filter>depend\vstsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\vstsdk2.4\public.sdk\source\vst2.x\vstplugmain.cpp">
+      <Filter>depend\vstsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PitchShifter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Editor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="deps\zlib\deflate.h">
+      <Filter>depend\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\zlib\inffast.h">
+      <Filter>depend\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\zlib\inffixed.h">
+      <Filter>depend\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\zlib\inflate.h">
+      <Filter>depend\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\zlib\inftrees.h">
+      <Filter>depend\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\zlib\trees.h">
+      <Filter>depend\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\zlib\zconf.h">
+      <Filter>depend\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\zlib\zlib.h">
+      <Filter>depend\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\zlib\zutil.h">
+      <Filter>depend\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\zlib\crc32.h">
+      <Filter>depend\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\png\png.h">
+      <Filter>depend\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\png\pngconf.h">
+      <Filter>depend\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\vstgui\vstgui.h">
+      <Filter>depend\vstgui</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\vstgui\aeffguieditor.h">
+      <Filter>depend\vstgui</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\vstgui\vstcontrols.h">
+      <Filter>depend\vstgui</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\vstsdk2.4\public.sdk\source\vst2.x\aeffeditor.h">
+      <Filter>depend\vstsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\vstsdk2.4\public.sdk\source\vst2.x\audioeffect.h">
+      <Filter>depend\vstsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\vstsdk2.4\public.sdk\source\vst2.x\audioeffectx.h">
+      <Filter>depend\vstsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\vstsdk2.4\pluginterfaces\vst2.x\aeffect.h">
+      <Filter>depend\vstsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\vstsdk2.4\pluginterfaces\vst2.x\aeffectx.h">
+      <Filter>depend\vstsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\vstsdk2.4\pluginterfaces\vst2.x\vstfxstore.h">
+      <Filter>depend\vstsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PitchShifter.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Editor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
