@@ -15,8 +15,17 @@ $RECYCLE.BIN/
 *.msp
 *.user
 
+x64/*.*
+Debug/*.*
+Release/*.*
+.vs/*.*
+
 # Windows shortcuts
 *.lnk
+
+Debug/*.*
+Release/*.*
+
 
 # =========================
 # Operating System Files
