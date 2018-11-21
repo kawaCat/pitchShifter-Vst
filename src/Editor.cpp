@@ -81,7 +81,7 @@ bool PitchShifterEditor::open(void *ptr)
     CParam1->setStringConvert(ST_Pitch2Text);
     CParam1->setAntialias(true);
     //===============================================================
-    lFrame->addView(CParam1);
+    lFrame->addView(CParam1); //will be delete when close frame ..??
     hKnobBack->forget();
     hKnobPoint->forget();
     //===============================================================
@@ -92,8 +92,11 @@ bool PitchShifterEditor::open(void *ptr)
 //===================================================================
 void PitchShifterEditor::close()
 {
-    delete frame;
-    frame = nullptr;
+    AEffGUIEditor::close();
+    //===============================================================
+
+    // delete frame;
+    // frame = nullptr;
 }
 //===================================================================
 void PitchShifterEditor::setParameter(VstInt32 index, float value)

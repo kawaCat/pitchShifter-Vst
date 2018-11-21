@@ -19,3 +19,8 @@ Releases : https://github.com/kawaCat/pitchShifter-Vst/releases
 * +- 1 octave change width.
 * vst 2.4 plugin.
 * win 32 ,64bit.
+
+(2018/11)
+
+※ これは過去に学習用に作ったものです。
+※ this was made for learning programming personally.I recommende other pitch shifting plugins.

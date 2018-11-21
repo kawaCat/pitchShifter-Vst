@@ -13,6 +13,7 @@ AudioEffect* createEffectInstance(audioMasterCallback audioMaster)
 PitchShift::PitchShift(audioMasterCallback audioMaster)
     : AudioEffectX(audioMaster, 1, 1)   // 1 program, 1 parameter only
     , fParam0(0.5f)
+    , cSoundTouch1 ( NULL )
 {
     setNumInputs(2);// stereo in
     setNumOutputs(2);// stereo out
@@ -42,6 +43,12 @@ PitchShift::~PitchShift()
     // {
     //   delete editor;
     // }
+
+    if (cSoundTouch1 != NULL)
+    {
+        delete cSoundTouch1;
+        cSoundTouch1 = NULL;
+    }
 }
 //===================================================================
 void PitchShift::resume()
