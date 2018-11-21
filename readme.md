@@ -23,4 +23,5 @@ Releases : https://github.com/kawaCat/pitchShifter-Vst/releases
 (2018/11)
 
 ※ これは過去に学習用に作ったものです。
+
 ※ this was made for learning programming personally.I recommende other pitch shifting plugins.
